@@ -1,0 +1,512 @@
+@media (max-width: 1300px) {
+    #carouselExample .carousel-item .content p {
+        width: 100%;
+    }
+
+    #carouselExample .carousel-item .content.part1 p {
+        /* margin: 0px; */
+        width: 100%;
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .box1 p {
+        font-size: 60px;
+    } 
+
+    #carouselExample .carousel-item.active .content.part2 .box-left .box2 {
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .box2 p {
+        font-size: 12px;    
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .box2 button {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    #carouselExample .carousel-item .content.part2 .rotation {
+        display: none;
+    }
+
+    #carouselExample .carousel-item .content.part3 .image-left {
+        display: none;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text1 p {
+        font-size: 20px;
+        width: 75%;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 p {
+        font-size: 12px;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 .icons .image {
+        width: 33.33%;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 .icons img {
+        width: 40%;
+    }
+
+    button.global {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    #carouselExample .carousel-item .content.part1 h1 {
+        font-size: 40px;
+    }
+
+    #carouselExample .carousel-item .content.part1 p {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    
+    #carouselExample .buttons {
+        position: absolute;
+        bottom: 3%;
+        right: 3%;
+        display: flex;
+        column-gap: 40px;
+    }
+
+    #carouselExample .buttons button {
+        background-image: linear-gradient(to right, #536976, #292e49);
+        width: 40px;
+        height: 40px;
+    }
+    
+    #Products .list .list-item {
+        width: 30%;
+    }
+
+    #About .text1 p {
+        font-size: 20px;
+    }
+
+    #About .text2 p {
+        font-size: 12px;
+    }
+
+    #About .text2 ul li h6 {
+        font-size: 15px;
+    }
+
+    #About .about-img img {
+        width: 100%;
+    }
+
+    #Testimonials {
+        background-image: url("../dine-out_images/video_image-min.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: auto;
+        overflow: auto;
+        position: relative;
+    }
+
+    #Testimonials .container {
+        position: static;
+        /* top: 50%;
+        left: 50%; */
+        transform: translate(0, 0);
+    }
+
+    #Testimonials::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .7);
+        width: 100%;
+        height: 100%;
+    }
+
+    #Testimonials video {
+        display: none;
+    }
+
+    #Testimonials .text h2 {
+        font-size: 20px;
+    }
+
+    #Testimonials .text p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    #Testimonials .content .box {
+        width: 280px;
+        margin: auto;
+    }
+
+    #Menu .responsive {
+        margin-bottom: 30px;
+    }
+
+    #Menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: max-content;
+        margin: 0 auto;  
+    }
+
+    #Menu ul li {
+        width: 85px;
+    }
+
+    #Menu li {
+        /* width: 25%;
+        flex-shrink: 0; */
+    }
+    
+    #Menu .part {
+        padding: 0;
+    }
+
+    #Menu .s-card {
+        width: 280px;
+        margin: 0 auto 10px;
+    } 
+
+    #Chefs .box {
+        width: 280px;
+        margin: auto;
+    }
+
+    #Chefs .box .text p {
+        font-size: 20px;
+    }
+
+    #Order .group {
+        width: 100%;
+    }
+
+    #Order img.delivery {
+        display: none;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #carouselExample .carousel-item .content p {
+        width: 90%;
+        padding-inline: 5px;
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .box1 img {
+        width: 35%;
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .text p:nth-of-type(2) {
+        font-size: 13px;
+        margin-inline: auto;    
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .text button {
+        padding: 10px 20px;
+    }
+
+    #carouselExample .carousel-item .content.part2 .box-left .text button {
+        font-size: 15px;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text1 p {
+        font-size: 25px;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 p {
+        font-size: 14px;
+    }
+
+    button.global {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    #carouselExample .carousel-item .content.part1 h1 {
+        font-size: 50px;
+    }
+
+    #carouselExample .carousel-item .content.part1 p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 p {
+        font-size: 12px;
+    }
+
+    #Products .list .list-item {
+        width: 27.5%;
+    }
+
+    #About .text1 p {
+        width: 75%;
+    }
+
+    #Menu ul {
+        /* display: flex;
+        justify-content: center;   
+        flex-wrap: nowrap; */
+    }
+
+    #Menu li {
+        /* width: 25%;
+        flex-shrink: 0; */
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    #carouselExample .carousel-item.active .content.part2 .box-left .box1,
+    #carouselExample .carousel-item.active .content.part2 .box-left .box2 {
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    #carouselExample .carousel-item .content.part1 h1 {
+        font-size: 60px;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text1 p {
+        font-size: 25px;
+        width: 65%;
+    } 
+
+    #carouselExample .carousel-item .content.part3 .text2 p {
+        font-size: 14px;
+    }
+
+    #Products .list .list-item {
+        width: 22.5%;
+    }
+
+    #About .about-img img {
+        width: 95%;
+    }
+
+    #About .text1 p {
+        font-size: 25px;
+    }
+
+    #About .text2 p {
+        font-size: 16px;
+    }
+
+    #About .text2 ul li h6 {
+        font-size: 18px;
+    }
+
+    #Testimonials .content .box {
+        width: initial;
+    }
+
+    #Testimonials .text h2 {
+        font-size: 30px;
+    }
+
+    #Testimonials .text p {
+        font-size: 15px;
+    }
+
+    
+
+    #Menu li {
+        /* width: calc(100%/8); */
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #carouselExample .carousel-item.active .content.part2 .box-left .box1,
+    #carouselExample .carousel-item.active .content.part2 .box-left .box2 {
+        width: 100%;
+    }
+
+
+    #carouselExample .carousel-item .content.part2 .rotation {
+        display: flex;
+    }
+
+    #carouselExample .carousel-item .content.part3 .image-left {
+        display: block;
+    }
+
+    #carouselExample .carousel-item .content.part3 .image-left img {
+        width: 100%;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text1 p {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    #carouselExample .carousel-item .content.part1 h1 {
+        font-size: 70px;
+    }
+
+    #carouselExample .carousel-item .content.part1 p {
+        width: 65%;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 p {
+        width: 100%;
+    }
+
+    #Products .list .list-item {
+        width: calc(100%/7);
+    }
+
+    #About .text1 p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #About .text2 p {
+        font-size: 12px;
+    }
+
+    #About .img-left {
+        display: flex;
+        align-items: center;
+    }
+
+    #About .about-img img {
+        width: 100%;
+    }
+
+    #Testimonials {
+        background-image: none;
+    }
+
+    #Testimonials video {
+        display: inline;
+    }
+
+    #Testimonials .text h2 {
+        font-size: 35px;
+    }
+
+    #Testimonials .text p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    #Testimonials .box h6 {
+        font-size: 16px;
+    }
+
+    
+
+    #Menu li {
+        /* width: calc(100%/10); */
+    }
+
+    #Menu .box-sh {
+        padding: 15px;
+    }
+
+    #Menu .s-card {
+        width: initial;
+    } 
+
+    #Chefs .box {
+        width: initial;
+        margin: auto;
+    }
+
+    #Order img.delivery {
+        display: inline;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    #carouselExample .carousel-item .content.part3 .image-left img {
+        width: 80%;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text1 p {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    #carouselExample .carousel-item .content.part3 .text2 p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    button.global {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    #carouselExample .buttons button {
+        background-image: linear-gradient(to right, #536976, #292e49);
+        width: 50px;
+        height: 50px;
+    }
+
+    #About .about-img img {
+        width: 100%;
+        /* max-height: 100%,; */
+    }
+
+    #Menu li {
+        width: 100%;
+    }
+
+    #Menu ul {
+    }
+    
+    #Menu ul {
+        flex-direction: column;
+        width: fit-content;
+        margin: initial;
+        --bs-nav-link-padding-x: 0;
+    }
+
+    #Menu ul li button {
+        padding-block: 0;
+    }
+
+    #Menu ul img {
+        width: 40%;
+    }
+
+    #Menu .mid-boxs {
+        row-gap: 0;
+    }
+
+    #Menu .s-card .card-item p {
+        font-size: 14px;
+    }
+
+    #Menu .s-card .card-item .rate i {
+        font-size: 7px;
+    }
+
+    #Chefs .box .text p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+}
