@@ -28,6 +28,30 @@ section {
     color: var(--bs-yellow);
 }
 
+.title .decoration {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.title .decoration::before,
+.title .decoration::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    transform: translate(-10%, -50%);
+}
+
+.title .decoration::after {
+    left: 100%;
+    transform: translate(10%, -50%);
+}
+
+
 button.global {
     overflow: hidden;
     padding: 10px 25px;
