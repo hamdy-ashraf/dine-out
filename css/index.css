@@ -645,10 +645,6 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     transform: scale(1);
 }
 
-#Menu ul li h5 {
-    font-size: 14px;
-}
-
 #Menu .mid-boxs {
     row-gap: 20px;
 }
