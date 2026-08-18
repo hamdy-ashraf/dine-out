@@ -8,7 +8,7 @@
     }
 }
 
-@keyframes about-img {
+@keyframes rotate {
     0% {
         rotate: 0deg;
     }

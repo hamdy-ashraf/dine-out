@@ -303,12 +303,16 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     font-weight: lighter;
 }
 
-#carouselExample .carousel-item .content.part2 img {
+#carouselExample .carousel-item .content.part2 .rotation img {
     animation-duration: 8s;
     opacity: 0;
     top: -100%;
     transition-duration: 1s;
     position: relative;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
 }
 
 #carouselExample .carousel-item.active .content.part2 img {
@@ -529,7 +533,7 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
 #About .about-img .box {
     width: 100px;
     height: 100px;
-    animation-name: about-img;
+    animation-name: rotate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 15s;
