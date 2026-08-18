@@ -63,7 +63,6 @@
         width: 95%;
         font-size: 12px;
     }
-
     
     #carouselExample .buttons {
         position: absolute;
@@ -169,7 +168,7 @@
     }
 
     #Menu ul li {
-        width: 85px;
+        width: 100px;
     }
 
     #Menu ul li:not(:last-child) {
@@ -264,21 +263,9 @@
     #About .text1 p {
         width: 75%;
     }
-
-    #Menu ul {
-        /* display: flex;
-        justify-content: center;   
-        flex-wrap: nowrap; */
-    }
-
-    #Menu li {
-        /* width: 25%;
-        flex-shrink: 0; */
-    }
 }
 
 @media (min-width: 577px) and (max-width: 1300px) {
-
     #carouselExample .carousel-item.active .content.part2 .box-left .box1,
     #carouselExample .carousel-item.active .content.part2 .box-left .box2 {
         width: 75%;
@@ -314,10 +301,6 @@
         font-size: 16px;
     }
 
-    #About .text2 ul li h6 {
-        font-size: 18px;
-    }
-
     #Testimonials .content .box {
         width: initial;
     }
@@ -328,12 +311,6 @@
 
     #Testimonials .text p {
         font-size: 15px;
-    }
-
-    
-
-    #Menu li {
-        /* width: calc(100%/8); */
     }
 
     footer p {
@@ -421,16 +398,6 @@
         font-size: 16px;
     }
 
-    
-
-    #Menu li {
-        /* width: calc(100%/10); */
-    }
-
-    #Menu .box-sh {
-        padding: 15px;
-    }
-
     #Menu .s-card {
         width: initial;
     } 
@@ -472,12 +439,16 @@
         height: 50px;
     }
 
+    #About .text2 ul li h6 {
+        font-size: 18px;
+    }
+
     #About .about-img img {
         width: 100%;
     }
 
-    #Menu li {
-        width: 100%;
+    #Menu ul li {
+        width: initial;
     }
     
     #Menu ul {
@@ -510,7 +481,7 @@
     }
 
     #Menu .mid-boxs {
-        row-gap: 0;
+        row-gap: 15px;
     }
 
     #Menu .s-card .card-item p {

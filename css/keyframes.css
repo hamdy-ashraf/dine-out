@@ -8,6 +8,16 @@
     }
 }
 
+@keyframes about-img {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
 @keyframes delivery {
     0% {
         opacity: 0;

@@ -489,6 +489,10 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     width: 40%;
 }
 
+#About .text2 ul {
+    padding-left: 0;
+}
+
 #About .text2 ul li {
     width: 50%;
 } 
@@ -525,6 +529,9 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
 #About .about-img .box {
     width: 100px;
     height: 100px;
+    animation-name: about-img;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
     animation-duration: 15s;
     border: 5px solid var(--bs-yellow);
     
@@ -599,6 +606,7 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
 #Menu li:first-child button {
     border-top: none;
 }
+
 #Menu li:last-child button {
     border-bottom: none;
 }
@@ -622,7 +630,7 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     justify-content: center;
     align-items: center;
     row-gap: 10px;
-    padding-block: 15px;
+    padding-block: 12px;
     text-align: center;
     position: relative;
 }
@@ -637,6 +645,10 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     transform: scale(1);
 }
 
+#Menu ul li h5 {
+    font-size: 14px;
+}
+
 #Menu .mid-boxs {
     row-gap: 20px;
 }
@@ -649,8 +661,6 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
 #Menu .mid-boxs .box-sh:hover {
     transform: translateY(-10px);
 }
-
-
 
 #Menu .s-card {
     transition-duration: 1s;
@@ -695,8 +705,6 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     transition-delay: .5s;
 }
 
-
-
 #Menu .s-card .card-item {
     display: flex;
     column-gap: 40px;
@@ -704,11 +712,52 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
 
 #Menu .s-card .card-item .rate i {
     font-size: 10px;
+    color: var(--bs-yellow);
+}
+
+#Menu .s-card .card-item .rate {
+    position: relative;
 }
 
 #Menu .s-card .card-item .rate i {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-    color: var(--bs-yellow);
+#Menu .s-card .card-item .rate i:not(:first-child) {
+    opacity: 0;
+}
+
+#Menu .tab-content .show .s-card .card-item .rate i:not(:first-child) {
+    transition-duration: 1s;
+}
+
+#Menu .tab-content .show .s-card .card-item .rate i:nth-of-type(2) {
+    transform: translateX(150%);
+    opacity: 1;
+    transition-delay: 1.5s;
+}
+
+#Menu .tab-content .show .s-card .card-item .rate i:nth-of-type(3) {
+    transform: translateX(300%);
+    opacity: 1;
+    transition-delay: 2s;
+
+}
+
+#Menu .tab-content .show .s-card .card-item .rate i:nth-of-type(4) {
+    transform: translateX(450%);
+    opacity: 1;
+    transition-delay: 2.5s;
+
+}
+
+#Menu .tab-content .show .s-card .card-item .rate i:nth-of-type(5) {
+    transform: translateX(600%);
+    opacity: 1;
+    transition-delay: 3s;
+
 }
 
 #Menu .s-card .card-item p:nth-of-type(1) {
@@ -722,6 +771,8 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
 #Chefs .chef-img img {
     border-radius: 15px;
     transition-duration: .5s;
+    display: block;
+    margin: auto;
 }
 
 #Chefs .chef-img:hover img {
@@ -739,8 +790,8 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     transition-duration: .5s;
 }
 
-#Chefs .chef-img:hover~.text,
-#Chefs .text:hover {
+#Chefs .boxhover .chef-img~.text,
+#Chefs .box:hover .text {
     transform: translateY(-100%);
     background-image: none;
     background-color: var(--bs-yellow);
@@ -754,8 +805,8 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     transition-duration: .5s;
 }
 
-#Chefs .chef-img:hover~.text p,
-#Chefs .text:hover p {
+#Chefs.box:hover .chef-img~.text p,
+#Chefs .box:hover .text p {
     color: #fff;
 }
 
