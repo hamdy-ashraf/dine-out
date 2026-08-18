@@ -649,12 +649,12 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     row-gap: 20px;
 }
 
-#Menu .mid-boxs .box-sh {
+#Menu .box-sh {
     padding-top: 0;
     transition-duration: 1s;
 }
 
-#Menu .mid-boxs .box-sh:hover {
+#Menu .box-sh:hover {
     transform: translateY(-10px);
 }
 
