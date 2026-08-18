@@ -849,6 +849,11 @@ header nav .offcanvas.offcanvas-end.show~.navbar-toggler .icon .burger:nth-of-ty
     top: 8px;
 }
 
+
+.form-control:focus{
+    box-shadow: none;
+}
+
 textarea {
     resize: none;
 }
